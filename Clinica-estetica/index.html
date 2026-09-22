@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica de Estética Avançada | Harmonização Facial</title>
+    <meta name="description"
+        content="Clínica especializada em estética facial e corporal. Tratamentos como Harmonização Facial, Botox e Bioestimuladores com naturalidade e segurança.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-gold': '#B89B72', // Dourado envelhecido / Nude escuro
+                        'brand-gold-light': '#D4C0A1',
+                        'whatsapp-green': '#25D366',
+                        'whatsapp-hover': '#128C7E',
+                        'brand-dark': '#1F2937',
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'sans-serif'],
+                        'serif': ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Animações suaves */
+        .fade-in {
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body class="font-sans text-gray-800 bg-stone-50 antialiased selection:bg-brand-gold selection:text-white">
+
+    <!-- Navbar Fixo -->
+    <nav class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="#" class="font-serif text-2xl font-semibold tracking-wide text-brand-dark">
+                        Aura<span class="text-brand-gold italic font-normal">Estética</span>
+                    </a>
+                </div>
+                <div>
+                    <!-- Botão Desktop -->
+                    <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta."
+                        target="_blank" rel="noopener noreferrer"
+                        class="hidden sm:inline-flex items-center justify-center px-6 py-2.5 border border-transparent text-sm font-medium rounded-full text-white bg-brand-gold hover:bg-brand-gold-light transition-colors duration-300 shadow-sm hover:shadow">
+                        Agendar Consulta
+                    </a>
+                    <!-- Ícone Mobile -->
+                    <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta."
+                        target="_blank" rel="noopener noreferrer" class="sm:hidden text-brand-gold text-2xl">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section (Primeira Dobra) -->
+    <section class="relative pt-28 pb-16 md:pt-32 md:pb-24 overflow-hidden min-h-[90vh] flex items-center">
+        <!-- Elementos decorativos de fundo -->
+        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 rounded-full bg-rose-100 opacity-50 blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-stone-200 opacity-50 blur-3xl">
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="lg:grid lg:grid-cols-12 lg:gap-8 items-center">
+
+                <!-- Conteúdo de Texto -->
+                <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left fade-in">
+                    <span
+                        class="text-sm font-semibold tracking-wider text-brand-gold uppercase bg-brand-gold/10 px-3 py-1 rounded-full">Estética
+                        Avançada</span>
+                    <h1
+                        class="mt-4 text-4xl tracking-tight font-serif font-bold text-gray-900 sm:text-5xl md:text-6xl lg:leading-tight">
+                        Revele a sua <span class="text-brand-gold italic font-normal">melhor versão</span> com
+                        naturalidade e segurança.
+                    </h1>
+                    <p class="mt-6 text-base text-gray-600 sm:text-lg sm:max-w-xl sm:mx-auto lg:mx-0 leading-relaxed">
+                        Procedimentos estéticos avançados em São José e Biguaçu. Harmonização, Botox e tratamentos
+                        faciais com tecnologia de ponta.
+                    </p>
+
+                    <!-- Call to Action -->
+                    <div class="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
+                        <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20agendar%20minha%20avaliação."
+                            target="_blank" rel="noopener noreferrer"
+                            class="w-full inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-whatsapp-green hover:bg-whatsapp-hover transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 sm:w-auto">
+                            <i class="fab fa-whatsapp text-2xl mr-2"></i> Agendar Minha Avaliação
+                        </a>
+                        <!-- Prova Social -->
+                        <div class="mt-4 flex items-center justify-center lg:justify-start space-x-2">
+                            <div class="flex text-yellow-400 text-sm">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="text-sm font-medium text-gray-500">+ de 1.000 pacientes
+                                transformadas.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Imagem Hero -->
+                <div class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center fade-in"
+                    style="animation-delay: 0.2s;">
+                    <div
+                        class="relative mx-auto w-full rounded-2xl shadow-2xl lg:max-w-md overflow-hidden aspect-[4/5] border-4 border-white">
+                        <img class="w-full h-full object-cover"
+                            src="https://images.unsplash.com/photo-1615397323865-d05ea087796d?auto=format&fit=crop&w=800&q=80"
+                            alt="Tratamento estético facial em ambiente de spa limpo e relaxante">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Tratamentos (Cards em Grid) -->
+    <section class="py-24 bg-white" id="tratamentos">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-base font-semibold text-brand-gold tracking-wide uppercase">Especialidades</h2>
+                <p class="mt-2 text-3xl leading-8 font-serif font-bold tracking-tight text-gray-900 sm:text-4xl">
+                    Nossos <span class="italic font-normal">Tratamentos</span>
+                </p>
+            </div>
+
+            <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+
+                <!-- Card 1: Harmonização Facial -->
+                <div
+                    class="flex flex-col bg-stone-50 rounded-2xl p-8 border border-stone-100 shadow-sm hover:shadow-lg transition-all duration-300 group hover:-translate-y-1">
+                    <div
+                        class="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-sm text-brand-gold mb-6 group-hover:bg-brand-gold group-hover:text-white transition-colors duration-300">
+                        <i class="fa-solid fa-face-smile text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-serif font-semibold text-gray-900 mb-3">Harmonização Facial</h3>
+                    <p class="text-gray-600 mb-6 flex-grow leading-relaxed">
+                        Procedimentos que equilibram as proporções do rosto, realçando seus contornos naturais de forma
+                        harmônica e elegante.
+                    </p>
+                </div>
+
+                <!-- Card 2: Toxina Botulínica (Botox) -->
+                <div
+                    class="flex flex-col bg-stone-50 rounded-2xl p-8 border border-stone-100 shadow-sm hover:shadow-lg transition-all duration-300 group relative overflow-hidden hover:-translate-y-1">
+                    <div
+                        class="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-sm text-brand-gold mb-6 group-hover:bg-brand-gold group-hover:text-white transition-colors duration-300">
+                        <i class="fa-solid fa-syringe text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-serif font-semibold text-gray-900 mb-3">Toxina Botulínica (Botox)</h3>
+                    <p class="text-gray-600 mb-6 flex-grow leading-relaxed">
+                        Prevenção e suavização de rugas e linhas de expressão para um olhar descansado, mantendo a
+                        naturalidade dos movimentos.
+                    </p>
+                </div>
+
+                <!-- Card 3: Bioestimuladores de Colágeno -->
+                <div
+                    class="flex flex-col bg-stone-50 rounded-2xl p-8 border border-stone-100 shadow-sm hover:shadow-lg transition-all duration-300 group hover:-translate-y-1">
+                    <div
+                        class="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-sm text-brand-gold mb-6 group-hover:bg-brand-gold group-hover:text-white transition-colors duration-300">
+                        <i class="fa-solid fa-droplet text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-serif font-semibold text-gray-900 mb-3">Bioestimuladores de Colágeno</h3>
+                    <p class="text-gray-600 mb-6 flex-grow leading-relaxed">
+                        Tratamento profundo para combater a flacidez, devolvendo firmeza, viço e espessura para a sua
+                        pele de forma duradoura.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Por que escolher a Aura Estética? (Diferenciais) -->
+    <section class="py-24 bg-gradient-to-b from-rose-50/50 to-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-serif font-bold text-gray-900 sm:text-4xl">Por que escolher a <span
+                        class="italic font-normal text-brand-gold">Aura Estética?</span></h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-16">
+                <!-- Tópico 1 -->
+                <div class="bg-white p-10 rounded-3xl shadow-sm border border-rose-100 hover:border-brand-gold/30 hover:shadow-xl transition-all duration-300 group hover:-translate-y-2 text-center">
+                    <div
+                        class="mx-auto flex items-center justify-center h-24 w-24 rounded-full bg-rose-50 text-brand-gold mb-8 group-hover:bg-brand-gold group-hover:text-white transition-colors duration-300">
+                        <i class="fa-regular fa-handshake text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-serif font-semibold text-gray-900 mb-4">Atendimento Personalizado</h3>
+                    <p class="text-gray-600 leading-relaxed">Cada paciente é única. Desenvolvemos planos de tratamento
+                        exclusivos baseados na sua anatomia e nos seus desejos.</p>
+                </div>
+
+                <!-- Tópico 2 -->
+                <div class="bg-white p-10 rounded-3xl shadow-sm border border-rose-100 hover:border-brand-gold/30 hover:shadow-xl transition-all duration-300 group hover:-translate-y-2 text-center">
+                    <div
+                        class="mx-auto flex items-center justify-center h-24 w-24 rounded-full bg-rose-50 text-brand-gold mb-8 group-hover:bg-brand-gold group-hover:text-white transition-colors duration-300">
+                        <i class="fa-solid fa-user-doctor text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-serif font-semibold text-gray-900 mb-4">Profissionais Especializados</h3>
+                    <p class="text-gray-600 leading-relaxed">Nossa equipe está em constante atualização para trazer as
+                        técnicas mais modernas, naturais e seguras do mercado.</p>
+                </div>
+
+                <!-- Tópico 3 -->
+                <div class="bg-white p-10 rounded-3xl shadow-sm border border-rose-100 hover:border-brand-gold/30 hover:shadow-xl transition-all duration-300 group hover:-translate-y-2 text-center">
+                    <div
+                        class="mx-auto flex items-center justify-center h-24 w-24 rounded-full bg-rose-50 text-brand-gold mb-8 group-hover:bg-brand-gold group-hover:text-white transition-colors duration-300">
+                        <i class="fa-solid fa-spa text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-serif font-semibold text-gray-900 mb-4">Ambiente Seguro e Confortável</h3>
+                    <p class="text-gray-600 leading-relaxed">Clínica com padrão rigoroso de higiene e uma atmosfera
+                        relaxante de luxo para que sua experiência seja impecável.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre a Especialista -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-3xl overflow-hidden shadow-xl shadow-stone-200/50 border border-stone-100">
+                <div class="lg:flex">
+                    <!-- Foto da Doutora (Placeholder Elegant) -->
+                    <div class="lg:w-1/2">
+                        <div class="h-80 w-full lg:h-full min-h-[400px] bg-rose-50 flex items-center justify-center border-r border-stone-100">
+                            <div class="text-center px-6">
+                                <i class="fa-regular fa-image text-4xl text-rose-300 mb-4"></i>
+                                <p class="text-rose-900/60 font-serif text-xl tracking-wide">Espaço para a foto da<br>Especialista</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Texto -->
+                    <div class="lg:w-1/2 p-10 md:p-14 lg:p-20 flex flex-col justify-center">
+                        <span class="text-brand-gold font-semibold tracking-wider uppercase text-sm mb-3">A
+                            Especialista</span>
+                        <h2 class="text-3xl font-serif font-bold text-gray-900 mb-5">Dra. Helena Albuquerque</h2>
+                        <div class="w-16 h-1 bg-brand-gold mb-8"></div>
+                        <p class="text-xl text-gray-600 mb-6 italic font-serif leading-relaxed">
+                            "Com mais de 10 anos de experiência, nossa missão é realçar sua beleza natural, respeitando
+                            seus traços únicos, sem exageros."
+                        </p>
+                        <p class="text-gray-600 mb-10 leading-relaxed">
+                            Dedicada à excelência em harmonização e cuidados faciais, a Dra. Helena é referência por seu
+                            olhar clínico apurado e protocolos de alto padrão. Priorizamos a sua segurança e satisfação
+                            em cada detalhe.
+                        </p>
+                        <div>
+                            <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação%20com%20a%20Dra.%20Helena." target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-brand-dark font-semibold border-b-2 border-brand-gold pb-1 hover:text-brand-gold transition-colors">
+                                Fale com nossa equipe <i class="fab fa-whatsapp ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prova Social (Depoimentos) -->
+    <section class="py-24 bg-stone-50 border-y border-stone-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-serif font-bold text-gray-900 sm:text-4xl">O que dizem nossas <span class="italic font-normal text-brand-gold">Pacientes</span></h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+                <!-- Depoimento 1 -->
+                <div class="bg-white p-10 rounded-3xl shadow-sm relative border border-stone-100">
+                    <i class="fa-solid fa-quote-left text-5xl text-brand-gold/10 absolute top-6 left-6"></i>
+                    <div class="relative z-10">
+                        <div class="flex text-yellow-400 text-sm mb-5">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 italic mb-6 leading-relaxed text-lg">"Amei o resultado da minha harmonização! Muito natural, exatamente como eu queria. A doutora é uma excelente profissional e o ambiente é maravilhoso."</p>
+                        <p class="font-semibold text-gray-900 font-serif text-lg">- Mariana S.</p>
+                    </div>
+                </div>
+
+                <!-- Depoimento 2 -->
+                <div class="bg-white p-10 rounded-3xl shadow-sm relative border border-stone-100">
+                    <i class="fa-solid fa-quote-left text-5xl text-brand-gold/10 absolute top-6 left-6"></i>
+                    <div class="relative z-10">
+                        <div class="flex text-yellow-400 text-sm mb-5">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 italic mb-6 leading-relaxed text-lg">"Me senti super segura desde a primeira avaliação. Fiz o botox e fiquei com uma aparência descansada sem perder as minhas expressões. Recomendo muito!"</p>
+                        <p class="font-semibold text-gray-900 font-serif text-lg">- Camila C.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Antes e Depois (Resultados) -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-serif font-bold text-gray-900 sm:text-4xl">Resultados <span class="italic font-normal text-brand-gold">Reais</span></h2>
+                <p class="mt-4 text-gray-600 text-lg">Confira a transformação e naturalidade dos nossos procedimentos.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+                <!-- Resultado 1 -->
+                <div class="group">
+                    <div class="w-full aspect-[4/3] bg-stone-50 rounded-3xl flex items-center justify-center border-2 border-dashed border-stone-300 group-hover:border-brand-gold transition-colors duration-300 overflow-hidden relative">
+                        <div class="absolute inset-0 bg-white/50 group-hover:bg-transparent transition-colors duration-300"></div>
+                        <span class="text-stone-400 font-serif text-2xl tracking-wide group-hover:text-brand-gold transition-colors duration-300 z-10">Resultado 1</span>
+                    </div>
+                    <div class="mt-6 text-center">
+                        <h3 class="text-xl font-serif font-semibold text-gray-900">Harmonização Facial</h3>
+                        <p class="text-gray-500 mt-2">Preenchimento labial e contorno mandibular</p>
+                    </div>
+                </div>
+
+                <!-- Resultado 2 -->
+                <div class="group">
+                    <div class="w-full aspect-[4/3] bg-stone-50 rounded-3xl flex items-center justify-center border-2 border-dashed border-stone-300 group-hover:border-brand-gold transition-colors duration-300 overflow-hidden relative">
+                        <div class="absolute inset-0 bg-white/50 group-hover:bg-transparent transition-colors duration-300"></div>
+                        <span class="text-stone-400 font-serif text-2xl tracking-wide group-hover:text-brand-gold transition-colors duration-300 z-10">Resultado 2</span>
+                    </div>
+                    <div class="mt-6 text-center">
+                        <h3 class="text-xl font-serif font-semibold text-gray-900">Toxina Botulínica</h3>
+                        <p class="text-gray-500 mt-2">Suavização de linhas de expressão na testa e olhos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-brand-dark text-white pt-20 pb-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
+                <!-- Marca -->
+                <div>
+                    <a href="#" class="font-serif text-3xl font-semibold tracking-wide text-white inline-block mb-6">
+                        Aura<span class="text-brand-gold italic font-normal">Estética</span>
+                    </a>
+                    <p class="text-gray-400 text-sm leading-relaxed max-w-xs">
+                        Clínica premium de estética avançada. Revelando sua melhor versão com naturalidade e segurança.
+                    </p>
+                </div>
+
+                <!-- Contato/Endereço -->
+                <div>
+                    <h4 class="text-lg font-serif font-semibold text-brand-gold mb-6 uppercase tracking-wider text-sm">
+                        Contato e Endereço</h4>
+                    <ul class="space-y-4 text-gray-300 text-sm">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-4 text-brand-gold w-4 text-center"></i>
+                            <span class="leading-relaxed">Sua Rua Aqui, 123 - Sala 405<br>Bairro - Cidade/SC</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fab fa-whatsapp mr-4 text-brand-gold w-4 text-center"></i>
+                            <span>(XX) XXXXX-XXXX</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="far fa-envelope mr-4 text-brand-gold w-4 text-center"></i>
+                            <span>contato@auraestetica.com.br</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Horários e Redes Sociais -->
+                <div>
+                    <h4 class="text-lg font-serif font-semibold text-brand-gold mb-6 uppercase tracking-wider text-sm">
+                        Horário de Funcionamento</h4>
+                    <ul class="space-y-3 text-gray-300 text-sm mb-8">
+                        <li>Segunda a Sexta: 08:00 às 19:00</li>
+                        <li>Sábados: 09:00 às 13:00</li>
+                        <li class="text-gray-500">Domingos e Feriados: Fechado</li>
+                    </ul>
+
+                    <div class="flex space-x-4">
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-brand-gold hover:bg-brand-gold hover:text-white transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-brand-gold hover:bg-brand-gold hover:text-white transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
+                <p>&copy; 2026 Aura Estética Avançada. Todos os direitos reservados.</p>
+                <p class="mt-2 md:mt-0">Responsável Técnica: Dra. Helena Albuquerque - CRM/CRO Fictício 00000</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Flutuante do WhatsApp -->
+    <a href="https://wa.me/5500000000000?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avaliação."
+        target="_blank" rel="noopener noreferrer"
+        class="fixed bottom-6 right-6 bg-whatsapp-green text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-2xl hover:bg-whatsapp-hover transition-all duration-300 hover:scale-110 z-50 animate-bounce hover:animate-none"
+        aria-label="Agendar via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</body>
+
+</html>
